@@ -1,0 +1,54 @@
+.input-group {
+    margin-top: 20px;
+}
+
+.btn {
+    margin-top: 0px;
+    width: 100%;
+}
+
+.pos {
+    margin-top: 30px;
+}
+
+.nav-link {
+    padding: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.btn-loading:before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 4px;
+    background-color: #fff;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
+.kubespider-download-mention{
+    position: relative;
+}
+
+.kubespider-download-mention-content{
+    position: absolute;
+    top: 200px;
+}

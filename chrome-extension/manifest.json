@@ -17,7 +17,7 @@
         "16": "images/icon16.png"
       }
     },
-    "host_permissions": ["*://*/*"],
+    "host_permissions": ["http://localhost:3000"],
     "icons": {
       "16": "images/icon16.png",
       "48": "images/icon48.png",
